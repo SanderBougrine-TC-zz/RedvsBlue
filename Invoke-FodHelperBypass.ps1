@@ -19,7 +19,7 @@
 
 .EXAMPLE  
 
-     Load "cmd.exe -nologo /c powershell.exe" (it's default):
+     Load "cmd.exe /c powershell.exe" (it's default):
      FodhelperBypass 
 
      Load specific application:
@@ -32,7 +32,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = "cmd -nologo /c start powershell.exe" #default
+        [String]$program = "" #default
        )
 
     #Create registry structure
