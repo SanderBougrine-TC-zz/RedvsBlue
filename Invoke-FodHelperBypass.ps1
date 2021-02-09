@@ -19,7 +19,7 @@
 
 .EXAMPLE  
 
-     Load "cmd.exe /c powershell.exe" (it's default):
+     Load "cmd.exe -nologo /c powershell.exe" (it's default):
      FodhelperBypass 
 
      Load specific application:
