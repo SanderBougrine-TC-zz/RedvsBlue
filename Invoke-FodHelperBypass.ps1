@@ -11,22 +11,7 @@
     Function   : FodhelperBypass
     File Name  : FodhelperBypass.ps1 
     Author     : Sander B. - Louis M.
-
-
-.LINK  
-        
-    https://github.com/winscripting/UAC-bypass
-
-.EXAMPLE  
-
-     Load "cmd.exe /c powershell.exe" (it's default):
-     FodhelperBypass 
-
-     Load specific application:
-     FodhelperBypass -program "cmd.exe"
-     FodhelperBypass -program "cmd.exe /c powershell.exe"
-     
-
+    
 #>
 
 function FodhelperBypass(){ 
