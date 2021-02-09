@@ -10,7 +10,7 @@
 .NOTES  
     Function   : FodhelperBypass
     File Name  : FodhelperBypass.ps1 
-    Author     : Christian B. - winscripting.blog 
+    Author     : Sander B. - Louis M.
 
 
 .LINK  
