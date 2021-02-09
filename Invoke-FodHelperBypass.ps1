@@ -32,7 +32,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = "cmd.exe /c powershell.exe mkdir C:\Test" #default
+        [String]$program = "cmd.exe /c powershell.exe -command 'mkdir C:\Test'" #default
        )
 
     #Create registry structure
