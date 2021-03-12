@@ -17,7 +17,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = 'cmd /c start powershell.exe' #default
+        [String]$program = "cmd /c start powershell.exe" #default
        )
 
     #Create registry structure
